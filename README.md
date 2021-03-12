@@ -12,4 +12,6 @@ If you need to deploy the app on the iphone, there is the guidance https://codew
 
 The main structure of the code is in the folder appDemoOne
 
+The login function is achieved by the files LoginViewController.h and LoginViewController.m, while the register function is achieved by RegistViewController.h and RegistViewController.m 
+
 The code that run on the backend is serverFlask_pi_remote_4_him_rsa.py, which is mainly contributed by Jingping Nie
