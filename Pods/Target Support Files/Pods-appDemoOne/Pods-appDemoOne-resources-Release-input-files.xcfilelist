@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-appDemoOne/Pods-appDemoOne-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager/IQKeyboardManager.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/SGQRCode/SGQRCode/SGQRCode.bundle
+${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle
