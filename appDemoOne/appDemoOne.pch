@@ -1,0 +1,42 @@
+//
+//  appDemoOne.pch
+//  appDemoOne
+//
+//  Created by wendf on 2020/11/13.
+//  Copyright © 2020 ChinaTelecom. All rights reserved.
+//
+
+#ifndef appDemoOne_h
+#define appDemoOne_h
+#import <AFNetworking.h>
+#import "IQKeyboardManager.h"
+#import "IQKeyboardReturnKeyHandler.h"
+#import "Masonry.h"
+#import "SVProgressHUD.h"
+#import "Api.h"
+#import "DXNetworkCenter.h"
+
+/************************弱引用**************************************/
+#define kWeakSelf(weakSelf)      __weak __typeof(&*self)    weakSelf  = self;
+#define kStrongSelf(strongSelf)  __strong __typeof(&*self) strongSelf = weakSelf;
+
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight  ([UIScreen mainScreen].bounds.size.height)
+
+#define kDXCOLOR(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16)) / 255.0 green:((float)((hex & 0xFF00) >> 8)) / 255.0 blue:((float)(hex & 0xFF)) / 255.0 alpha:1]
+
+
+/**
+ * 定义连接字符串方法
+ */
+#define CONTACT(x, y) [NSString stringWithFormat:@"%@%@", (x), (y)]
+
+/*****本地存储********/
+#define SETUDValue(value,key)   [[NSUserDefaults standardUserDefaults] setObject:value forKey:key] //存储
+#define UDSYNC                  [[NSUserDefaults standardUserDefaults] synchronize]                //立即执行存储
+#define UDValue(key)            [[NSUserDefaults standardUserDefaults]objectForKey:key]            //取出
+#define RemoveValue(key)        [[NSUserDefaults standardUserDefaults] removeObjectForKey:key];    //移除
+
+
+#endif /* appDemoOne_h */

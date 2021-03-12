@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BFPaperCheckbox (2.1.0)
+  - IQKeyboardManager (6.5.4)
+  - Masonry (1.1.0)
+  - MJRefresh (3.3.1)
+  - OpenSSL (1.0.2.14)
+  - SGQRCode (3.0.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BFPaperCheckbox
+  - IQKeyboardManager
+  - Masonry
+  - MJRefresh
+  - OpenSSL (from `https://github.com/isee15/OpenSSL.git`)
+  - SGQRCode (~> 3.0.1)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - BFPaperCheckbox
+    - IQKeyboardManager
+    - Masonry
+    - MJRefresh
+    - SGQRCode
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  OpenSSL:
+    :git: https://github.com/isee15/OpenSSL.git
+
+CHECKOUT OPTIONS:
+  OpenSSL:
+    :commit: a411438c429b9f1b76dfc427ced0f6133c1c1ff0
+    :git: https://github.com/isee15/OpenSSL.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BFPaperCheckbox: 447570b82c15e16e8cf427a83ef1ad04ae1dc6c7
+  IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  OpenSSL: 262f45fa54bb474ef9310f34e63dc6addb4f4b97
+  SGQRCode: bf02d60e18d6660a9d75ff1c8b9b467f064f054e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 922cf4ef58bbd6f343d624788324ce78c2bbd2da
+
+COCOAPODS: 1.10.1
