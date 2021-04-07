@@ -18,3 +18,8 @@ The code that run on the backend is serverFlask_pi_remote_4_him_rsa.py, which is
 
 If you want to deploy the app on your phone you can follow the instructions below:
 
+First connect your phone to the computer and trust the device, then choose the simulator as your device.
+
+Second click appDemoOne, then click signing & capabilities. You should choose your own team
+
+Finally click run to start the process
